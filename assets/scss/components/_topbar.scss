@@ -1,0 +1,23 @@
+
+.topbar{
+    display: flex;
+    background: #F2EFEE;
+    justify-content: flex-end;
+    padding: 1rem 4rem;
+    
+    & a{
+        color: #74788A;
+        transition: .2s ease-in-out;
+        &:hover{
+            color: #003A92;
+        }
+        &:nth-child(1){ 
+
+            margin-right: 4rem;
+            
+        }
+    }
+    
+}
+
+

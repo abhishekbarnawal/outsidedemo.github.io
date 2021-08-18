@@ -1,0 +1,60 @@
+.mission-container{
+    background: #F2EFEE;
+
+    height: 160vh;
+    position: relative;
+    top: 60;
+    left: 0;
+    right: 0;
+    /* padding: 5% 5%; */
+
+    & .red-bg{
+        /* position: relative; */
+        background-color: #8C2531;
+        left: 0;
+        height: 90vh;
+        width: 95%;
+        padding: 5% 10%;
+        
+        & h2{
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            padding: 1rem 0;
+        }
+        
+        & h4{
+            color: #fff;
+            padding: 1rem 20rem 1rem 0; 
+            font-family: 'Galaxie Copernicus';
+            font-size: 44px;
+            font-weight: 700;
+        }
+
+        & p{
+            color: #fff;
+            font-size: 18px;
+            padding: 1rem 45rem 1rem 0;
+            font-family: 'Galaxie Copernicus';
+            font-weight: 500;
+        
+        }
+    }
+
+    & img{
+        position: absolute;
+        width: 90%;
+        height: auto;
+        top: 45%;
+        /* right: 10%; */
+        left: 0;
+    }
+}
+
+
+
+
+
+
+

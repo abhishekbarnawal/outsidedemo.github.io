@@ -1,0 +1,69 @@
+// fonts import
+@import url('/fonts/GalaxieCopernicus-Book.otf');
+@import url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+
+
+// Font Family
+
+$font_1: 'Galaxie Copernicus'; //Heading
+$font_2 : 'Inter';  //Body
+
+ // Style ==============
+
+
+ $font-weight-normal:          400 !default;
+ $font-weight-bold:            700 !default;
+ 
+ // font size =================
+
+ $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+ $h1-font-size:                $font-size-base * 2.5 !default;
+ $h2-font-size:                $font-size-base * 2 !default;
+ $h3-font-size:                $font-size-base * 1.75 !default;
+ $h4-font-size:                $font-size-base * 1.5 !default;
+ $h5-font-size:                $font-size-base * 1.25 !default;
+ $h6-font-size:                $font-size-base !default;
+ $p-font-size:                 0.625rem;   
+  // Line height
+  $line-height-base:            1.5 !default;
+  $line-height-sm:              1.25 !default;
+  $line-height-lg:              2 !default;
+
+   // z-index
+
+   $misc: 1;
+
+   
+    /*Color Variables*/
+
+
+
+    $primary-color:     #003A92;
+    $secondary-color:   #fe6606; 
+    $light-color :      #ffffff;
+    $dark-color:        #3c3c3c;    
+ 
+
+    :root{
+        --data-color-primary: #003A92;
+        --data-color-secondary: #fe6606;
+        
+        --primary-color:#003A92;
+        --secondary-color:#{$secondary-color};
+        --base-color:#ffffff;
+        --black_color:#000000;
+        --gray-color:#999999;
+
+        --font_1 :'Galaxie Copernicus', cursive; //Heading
+       --font_2 :'Inter';     //Body
+
+
+        }
+
+/*------------------- Responsive --------------------------*/
+
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg :'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xs:'(max-width: 575px)';

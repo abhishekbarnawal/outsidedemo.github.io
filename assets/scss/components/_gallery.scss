@@ -1,0 +1,40 @@
+.gallery-container{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background: #fff;
+    /* top: 40px; */
+    right: 0;
+    left: 0;
+    padding: 5% 15%;
+
+    & h5{
+        position: relative;
+        color: #003A92;
+        /* left: 15%; */
+        font-size: 24px;
+        z-index: 1000;
+    }
+
+    & .gallery-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          /* column-gap: 1rem; */
+        
+          & .item1, & .item2, & .item3{
+            padding: 1rem;
+          border: 1px solid #F2EFEE;
+        
+        }
+
+        & .item3{
+            align-self:flex-start;
+         }
+    }
+    
+}
+
+
+
+

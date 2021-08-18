@@ -1,0 +1,59 @@
+.founders-container{
+    background: #fff;
+    position: relative;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h5{
+        color: #fff;
+        z-index: 10;
+        padding: 5% 60% 5% 0;
+        font-size: 24px;
+    }
+
+    & .founder-img-con{
+        background-image: url("/images/founders.jpg");
+        height: 500px;
+        width: 80%;
+        background-size:auto;
+        background-repeat: no-repeat;
+        z-index: 10;
+
+        & .founder-text{
+            color: #fff;
+            position: absolute;
+            left: 15%;
+            bottom: 10%;
+            & hr{
+                /* z-index: 1000000; */
+                position: relative;
+                width: 70vw;
+                height: 1px;
+                color: #FFFFFF;
+            }
+
+            & h1{
+                 font-family: 'Galaxie Copernicus' !important;
+
+            }
+        } 
+          
+    } 
+}
+
+.beige-container{
+    z-index: 1;
+    position: absolute;
+    background: #D7C3AE;
+    height: 60vh;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
